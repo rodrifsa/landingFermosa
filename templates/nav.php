@@ -19,6 +19,8 @@ echo '
 
         <ul id="nav-links">
 
+
+            <li><a href="http://fermosainstituto.com/campus" class="links" target="_blank">CAMPUS</a></li>
             <li><a href="#" class="links">Nosotros</a></li>
             <li><a href="#" class="links">Carreras</a></li>
             <li><a href="#" class="links">Postgrado</a></li>
