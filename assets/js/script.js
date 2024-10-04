@@ -1,4 +1,5 @@
 /* HEADER */
+
 let menu = document.querySelector("#menu-icon");
 let navbar = document.querySelector(".navbar");
 
@@ -6,6 +7,29 @@ menu.onclick = () => {
   menu.classList.toggle("bx-x");
   navbar.classList.toggle("open");
 };
+
+const navLinks = document.querySelectorAll(".navbar a");
+
+const offsetMargin = 200;
+
+function changeActiveLink() {
+  let fromTop = window.scrollY + offsetMargin;
+
+  navLinks.forEach((link) => {
+    const section = document.querySelector(link.getAttribute("href"));
+
+    if (
+      section.offsetTop <= fromTop &&
+      section.offsetTop + section.offsetHeight > fromTop
+    ) {
+      navLinks.forEach((link) => link.classList.remove("active"));
+
+      link.classList.add("active");
+    }
+  });
+}
+
+window.addEventListener("scroll", changeActiveLink);
 
 /* SLIDER */
 
@@ -51,3 +75,39 @@ dots.forEach((li, key) => {
 window.onresize = function (event) {
   reloadSlider();
 };
+
+/* POSTGRADOS */
+
+const postgrados = document.querySelectorAll(".postgrado-item");
+
+postgrados.forEach((item) => {
+  item.addEventListener("mouseenter", () => {
+    const info = item.querySelector(".postgrado-info");
+    info.style.maxHeight = info.scrollHeight + "px";
+  });
+
+  item.addEventListener("mouseleave", () => {
+    const info = item.querySelector(".postgrado-info");
+    info.style.maxHeight = "0";
+  });
+});
+
+/* BACKTOTOP */
+
+const backToTopButton = document.getElementById("backToTop");
+
+window.addEventListener("scroll", () => {
+  if (window.scrollY > 300) {
+    backToTopButton.classList.add("show");
+  } else {
+    backToTopButton.classList.remove("show");
+  }
+});
+
+backToTopButton.addEventListener("click", (e) => {
+  e.preventDefault();
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth", //
+  });
+});

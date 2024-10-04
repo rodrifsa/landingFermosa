@@ -6,11 +6,11 @@ echo '
         <a href="index.php" class="logo"><img src="assets/img/logo/logo.png" alt=""></a>
 
         <ul class="navbar">
-            <li><a href="#" class="active">Nosotros</a></li>
-            <li><a href="#">Carreras</a></li>
-            <li><a href="#">Postgrados</a></li>
-            <li><a href="#">Inscribete</a></li>
-            <li><a href="#">Contacto</a></li>
+            <li><a href="#nosotros">Nosotros</a></li>
+            <li><a href="#carreras">Carreras</a></li>
+            <li><a href="#postgrados">Postgrados</a></li>
+            <li><a href="#inscribete">Inscribete</a></li>
+            <li><a href="#contacto">Contacto</a></li>
         </ul>
 
         <div class="main">
