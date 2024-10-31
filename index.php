@@ -77,78 +77,148 @@
     </div>
 
     <!-- ============================== -->
-    <!-- =========== ABOUT US =========-->
+    <!-- ============= BODY ===========-->
     <!-- ============================== -->
 
     <!-- Sección Nosotros -->
-    <section id="nosotros" class="section">
+    <section id="nosotros" class="about-section">
         <div class="container">
+            <!-- Título de la sección -->
             <div class="section-title">
-                <h2>Nosotros</h2>
-                <p>Somos una universidad dedicada a la excelencia académica, con una visión global y compromiso social.</p>
+                <h2>Sobre Nosotros</h2>
+                <p>Conoce nuestra historia, misión, visión y valores que nos definen.</p>
             </div>
+
+            <!-- Contenido principal con imágenes y texto -->
             <div class="about-content">
-                <div class="about-text">
-                    <p>Formamos técnicos superiores capacitados para actuar profesionalmente y con responsabilidad social para contribuir a la construcción y desarrollo de una sociedad más justa y solidaria.
-                    </p>
-                    <p>Impulsamos acciones de cooperación, articulación e intercambio con otras instituciones de educación superior (convenios universitarios).
-                    </p>
-                    <p>Diversidad de especialidades: Comercio, Administración, Tecnología informática, Turismo, Enfermería, Bibliotecología, Turismo, Seguros, Ceremonial, Automatización y Robótica, Telecomunicaciones, entre otras.
-                    </p>
-                    <p>Nuestros profesores han sido seleccionados por su excelencia profesional y compromiso con la docencia.</p>
+                <!-- Primera fila de contenido con imagen y texto -->
+                <div class="about-row">
+                    <div class="about-image">
+                        <img src="https://via.placeholder.com/500x300" alt="Historia de la Universidad">
+                    </div>
+                    <div class="about-text">
+                        <h3>Nuestra Historia</h3>
+                        <p>Desde nuestro inicio en XXXX, hemos crecido hasta convertirnos en una de las universidades líderes en el país. Nuestro enfoque siempre ha sido la excelencia académica y el impacto positivo en la comunidad. A lo largo de los años, hemos formado a miles de profesionales que hoy son líderes en sus áreas.</p>
+                    </div>
                 </div>
-                <div class="about-image">
-                    <img src="https://via.placeholder.com/500" alt="Nosotros">
+
+                <!-- Segunda fila de contenido con imagen y texto -->
+                <div class="about-row">
+                    <div class="about-text">
+                        <h3>Nuestra Misión</h3>
+                        <p>Nuestra misión es proporcionar una educación integral que fomente el crecimiento académico, personal y profesional de nuestros estudiantes. Queremos preparar a los futuros líderes para que enfrenten los desafíos globales, promoviendo la innovación y el desarrollo sostenible.</p>
+                    </div>
+                    <div class="about-image">
+                        <img src="https://via.placeholder.com/500x300" alt="Misión de la Universidad">
+                    </div>
+                </div>
+
+                <!-- Tercera fila de contenido con imagen y texto -->
+                <div class="about-row">
+                    <div class="about-image">
+                        <img src="https://via.placeholder.com/500x300" alt="Visión de la Universidad">
+                    </div>
+                    <div class="about-text">
+                        <h3>Nuestra Visión</h3>
+                        <p>Queremos ser una universidad reconocida a nivel internacional por nuestra calidad académica, nuestra innovación en el ámbito de la educación superior y por nuestra contribución a la sociedad. Trabajamos para que nuestros egresados sean agentes de cambio en el mundo.</p>
+                    </div>
+                </div>
+
+                <!-- Cuarta fila con los valores y una imagen -->
+                <div class="about-row">
+                    <div class="about-text">
+                        <h3>Nuestros Valores</h3>
+                        <ul class="values-list">
+                            <li><strong>Innovación:</strong> Adoptamos nuevas tecnologías y metodologías para mejorar el aprendizaje.</li>
+                            <li><strong>Excelencia:</strong> Nos esforzamos por alcanzar los más altos estándares en educación.</li>
+                            <li><strong>Responsabilidad Social:</strong> Impactamos positivamente en la sociedad a través de proyectos que benefician a la comunidad.</li>
+                            <li><strong>Colaboración:</strong> Promovemos el trabajo en equipo para lograr objetivos comunes.</li>
+                        </ul>
+                    </div>
+                    <div class="about-image">
+                        <img src="https://via.placeholder.com/500x300" alt="Valores de la Universidad">
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Sección Carreras -->
-    <section id="carreras" class="section">
+    <section id="carreras" class="carreras-section">
         <div class="container">
             <div class="section-title">
-                <h2>Carreras</h2>
+                <h2>Nuestras Carreras</h2>
+                <p>Explora las carreras que ofrecemos para ayudarte a alcanzar tus metas.</p>
             </div>
             <div class="carreras-grid">
+                <!-- Card 1: Tecnicatura Superior en Gestion de Empresas -->
                 <div class="carrera-card">
-                    <h3>Tecnicatura Superior
-                        en Gestion de Empresas</h3>
-                    <span>Presencial - Duracion: 3 años</span>
-                    <p>Aprender a encargarte de la gestión integral de los procesos administrativos. Resolve los problemas de cualquier empresa aplicando las competencias técnico-profesionales que adquiriras a lo largo de esta increible carrera.</p>
+                    <div class="carrera-header">
+                        <h3>Tecnicatura Superior
+                            en Gestion de Empresas</h3>
+                        <span>Presencial - Duracion: 3 años</span>
+                    </div>
+                    <div class="carrera-content">
+                        <p>Aprender a encargarte de la gestión integral de los procesos administrativos. Resolve los problemas de cualquier empresa aplicando las competencias técnico-profesionales que adquiriras a lo largo de esta increible carrera.</p>
+                    </div>
                 </div>
+                <!-- Card 2: Tecnicatura Superior en Comunicacion Social -->
                 <div class="carrera-card">
-                    <h3>Tecnicatura Superior
-                        en Comunicacion Social</h3>
-                    <span>Presencial - Duracion: 3 años</span>
-                    <p>Desempeñate en medios de comunicación, organismos del estado, ONGs, instituciones privadas y consultoras, entre otros espacios, utilizando el conocimiento adquirido como herramienta para contribuir a la transformación de la realidad.</p>
+                    <div class="carrera-header">
+                        <h3>Tecnicatura Superior
+                            en Comunicacion Social</h3>
+                        <span>Presencial - Duracion: 3 años</span>
+                    </div>
+                    <div class="carrera-content">
+                        <p>Desempeñate en medios de comunicación, organismos del estado, ONGs, instituciones privadas y consultoras, entre otros espacios, utilizando el conocimiento adquirido como herramienta para contribuir a la transformación de la realidad.</p>
+                    </div>
                 </div>
+                <!-- Card 3: Tecnicatura Superior en Desarrollo de Software -->
                 <div class="carrera-card">
-                    <h3>Tecnicatura Superior
-                        en Desarrollo de Software</h3>
-                    <span>Presencial - Duracion: 3 años</span>
-                    <p>Participaras en equipos de desarrollo de software, en cualquiera de sus fases (requerimientos, análisis, diseño, programación, implantación, mantenimiento). Adquiriras conocimientos en distintas técnicas, herramientas, lenguajes de programación y procedimientos.</p>
+                    <div class="carrera-header">
+                        <h3>Tecnicatura Superior
+                            en Desarrollo de Software</h3>
+                        <span>Presencial - Duracion: 3 años</span>
+                    </div>
+                    <div class="carrera-content">
+                        <p>Participaras en equipos de desarrollo de software, en cualquiera de sus fases (requerimientos, análisis, diseño, programación, implantación, mantenimiento). Adquiriras conocimientos en distintas técnicas, herramientas, lenguajes de programación y procedimientos.</p>
+                    </div>
                 </div>
+                <!-- Card 4: Tecnicatura Superior en Desarrollo Local y Economía Social -->
                 <div class="carrera-card">
-                    <h3>Tecnicatura Superior
-                        en Desarrollo Local
-                        y Economía Social</h3>
-                    <span>Presencial - Duracion: 3 años</span>
-                    <p>Ejercerás en áreas vinculadas a la promoción y desarrollo socio económico y socio organizativo, de organismos estatales y privados, y organizaciones sociales tales como, mutuales, asociaciones y/o grupos asociativos.</p>
+                    <div class="carrera-header">
+                        <h3>Tecnicatura Superior
+                            en Desarrollo Local
+                            y Economía Social</h3>
+                        <span>Presencial - Duracion: 3 años</span>
+                    </div>
+                    <div class="carrera-content">
+                        <p>Ejercerás en áreas vinculadas a la promoción y desarrollo socio económico y socio organizativo, de organismos estatales y privados, y organizaciones sociales tales como, mutuales, asociaciones y/o grupos asociativos.</p>
+                    </div>
                 </div>
+                <!-- Card 5: Tecnicatura Superior en Producción e Industrializacion Frutihorticola -->
                 <div class="carrera-card">
-                    <h3>Tecnicatura Superior en
-                        Producción e Industrializacion
-                        Frutihorticola</h3>
-                    <span>Presencial - Duracion: 3 años</span>
-                    <p>Estaras capacitado para manifestar conocimientos, habilidades, destrezas, valores y actitudes en situaciones reales de trabajo, conforme a criterios de profesionalidad propios de cada área y de responsabilidad social</p>
+                    <div class="carrera-header">
+                        <h3>Tecnicatura Superior en
+                            Producción e Industrializacion
+                            Frutihorticola</h3>
+                        <span>Presencial - Duracion: 3 años</span>
+                    </div>
+                    <div class="carrera-content">
+                        <p>Estaras capacitado para manifestar conocimientos, habilidades, destrezas, valores y actitudes en situaciones reales de trabajo, conforme a criterios de profesionalidad propios de cada área y de responsabilidad social</p>
+                    </div>
                 </div>
+                <!-- Card 6:Trayecto Técnico Asistencia en estratégias de Comercialización -->
                 <div class="carrera-card">
-                    <h3>Trayecto Técnico
-                        Asistencia en estratégias
-                        de Comercialización</h3>
-                    <span>Presencial - Duracion: 1 años</span>
-                    <p>Las estrategias de comercialización son acciones planeadas dentro de un plan para la consecución de unos objetivos previamente fijados. Esta actividad se realiza todos los días en el ámbito de los negocios.</p>
+                    <div class="carrera-header">
+                        <h3>Trayecto Técnico
+                            Asistencia en estratégias
+                            de Comercialización</h3>
+                        <span>Presencial - Duracion: 1 años</span>
+                    </div>
+                    <div class="carrera-content">
+                        <p>Las estrategias de comercialización son acciones planeadas dentro de un plan para la consecución de unos objetivos previamente fijados. Esta actividad se realiza todos los días en el ámbito de los negocios.</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -240,19 +310,32 @@
         </div>
     </section>
 
-    <!-- ============================== -->
-    <!-- =========== MAP ===========-->
-    <!-- ============================== -->
-
+    <!-- Map -->
     <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d447.54944759035254!2d-58.17782846820343!3d-26.183807092532007!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x945ca5e52a7611cd%3A0xe0cb130c3dafcdd1!2sColegio%20Privado%20Espacios!5e0!3m2!1ses!2sar!4v1727968051316!5m2!1ses!2sar" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
-    <!-- ============================== -->
-    <!-- ========== BACKTOTOP =========-->
-    <!-- ============================== -->
-
+    <!-- BackToop -->
     <a href="#" id="backToTop" class="back-to-top">
         <i class="ri-arrow-up-s-fill"></i>
     </a>
+
+    <!-- Chatbox -->
+    <div class="chatbox-container">
+        <div class="chatbox-header">
+            <h4>Asistente</h4>
+            <button id="closeChat">&times;</button>
+        </div>
+        <div class="chatbox-body">
+            <div class="chatbox-messages">
+                <!-- Los mensajes del chat aparecerán aquí -->
+            </div>
+            <div class="chatbox-input">
+                <input type="text" id="chatInput" placeholder="Escribe un mensaje...">
+                <button id="sendMessage">Enviar</button>
+            </div>
+        </div>
+    </div>
+    <button id="openChat" class="chatbox-button">💬</button>
+
 
     <!-- ============================== -->
     <!-- =========== FOOTER ===========-->
