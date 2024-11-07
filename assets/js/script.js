@@ -13,19 +13,29 @@ const offsetMargin = 88;
 
 function changeActiveLink() {
   let fromTop = window.scrollY + offsetMargin;
+  let foundSection = false;
 
   navLinks.forEach((link) => {
     const section = document.querySelector(link.getAttribute("href"));
+
     if (
       section.offsetTop <= fromTop &&
       section.offsetTop + section.offsetHeight > fromTop
     ) {
+      // Si se encuentra la sección en pantalla
       navLinks.forEach((link) => link.classList.remove("active"));
       link.classList.add("active");
+      foundSection = true;
     }
   });
+
+  // Si no se encontró ninguna sección, quitar "active" de todos los enlaces
+  if (!foundSection) {
+    navLinks.forEach((link) => link.classList.remove("active"));
+  }
 }
 
+// Desplazamiento suave al hacer clic en los enlaces
 navLinks.forEach((link) => {
   link.addEventListener("click", function (e) {
     e.preventDefault();
@@ -37,6 +47,7 @@ navLinks.forEach((link) => {
   });
 });
 
+// Llama a changeActiveLink al hacer scroll
 window.addEventListener("scroll", changeActiveLink);
 
 /* SLIDER: Desplazamiento automático y control manual */

@@ -5,7 +5,11 @@ echo '
     <footer>
         <div class="footer-container">
             <div class="footer-logo">
-                <img src="assets/img/logo/logo.png" alt="Logo Universidad">
+
+                <a href="#" id="backToTop">
+                    <img src="assets/img/logo/logo.png" alt="Logo">
+                </a>
+                
 
                 <div class="footer-socials">
                     <a href="#"><i class="ri-instagram-fill"></i></a>
