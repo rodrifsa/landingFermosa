@@ -295,7 +295,7 @@
             <div class="contact-info">
                 <p>Dirección: Saavedra 1005, P3600 Formosa</p>
                 <p>Teléfono: +123 456 7890</p>
-                <p>Email: info@universidad.com</p>
+                <p>Email: secretarios.fermosa.2022@gmail.com</p>
             </div>
         </div>
     </section>

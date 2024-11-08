@@ -565,15 +565,15 @@ header {
 
 /* Imagenes de fondo para cada carrera */
 .carrera-card:nth-child(1) {
-  background-image: url("../img/slider/image1.jpg");
+  background-image: url("../img/slider/image4.jpg");
 }
 
 .carrera-card:nth-child(2) {
-  background-image: url("../img/slider/image1.jpg");
+  background-image: url("../img/slider/image6.jpg");
 }
 
 .carrera-card:nth-child(3) {
-  background-image: url("../img/slider/image1.jpg");
+  background-image: url("../img/slider/image5.jpg");
 }
 .carrera-card:nth-child(4) {
   background-image: url("../img/slider/image1.jpg");
