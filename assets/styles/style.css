@@ -12,6 +12,10 @@
   --main-color: #b5d9ec;
 }
 
+/* ============================== */
+/* ============ BODY ============ */
+/* ============================== */
+
 body {
   min-height: 100vh;
   background: var(--bg-color);
@@ -50,6 +54,7 @@ header {
   width: 190px;
 }
 
+/* Diseño del Navbar */
 .navbar {
   display: flex;
 }
@@ -129,6 +134,7 @@ header {
   display: none;
 }
 
+/* Responsividad */
 @media (max-width: 1280px) {
   header {
     padding: 28px 2%;
@@ -337,7 +343,7 @@ header {
   background-color: var(--main-color);
 }
 
-/* Responsivo: Para pantallas más pequeñas */
+/* Responsividad */
 @media screen and (max-width: 768px) {
   .slider {
     height: 50vh;
@@ -407,7 +413,6 @@ header {
   font-size: 1.1rem;
 }
 
-/* Fila de contenido de Nosotros */
 .about-row {
   display: flex;
   align-items: center;
@@ -446,7 +451,6 @@ header {
   text-decoration-line: underline;
 }
 
-/* Imagenes en la fila de contenido */
 .about-image {
   flex: 1;
   max-width: 500px;
@@ -515,7 +519,6 @@ header {
   gap: 20px;
 }
 
-/* Carreras Card con Imagen de Fondo */
 .carrera-card {
   display: flex;
   flex-direction: column;
@@ -572,7 +575,7 @@ header {
 }
 
 .carrera-content p {
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   margin: 0;
 }
 
@@ -593,6 +596,30 @@ header {
   background-image: url("../img/cards/image4.jpg");
 }
 
+.btn-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+}
+
+.btn-card button {
+  border-style: none;
+  padding: 6px;
+  width: 80px;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: var(--main-color);
+  font-weight: 600;
+  transition: all 0.5s ease;
+}
+
+.btn-card button:hover {
+  background-color: #5e91ad;
+  color: var(--text-color);
+  transition: all 0.5s ease;
+}
+
 /* Responsividad */
 @media (max-width: 768px) {
   .carreras-grid {
@@ -603,14 +630,18 @@ header {
     height: 400px;
   }
   .carrera-header h3 {
-    font-size: 1.3rem;
+    font-size: 1rem;
   }
   .carrera-content p {
-    font-size: 0.9rem;
+    font-size: 0.7rem;
+  }
+  .btn-card button {
+    padding: 5px;
+    width: 75px;
   }
 }
 
-/* Postgrados List */
+/* Postgrados*/
 .postgrados-list {
   display: flex;
   flex-direction: column;
@@ -656,6 +687,7 @@ header {
   color: #666;
 }
 
+/* Responsividad */
 @media (max-width: 768px) {
   .postgrado-item {
     width: 100%;
@@ -710,6 +742,7 @@ header {
   color: var(--bg-color);
 }
 
+/* Responsividad */
 @media (max-width: 768px) {
   .container-form {
     width: auto;
@@ -727,7 +760,6 @@ header {
 }
 
 /* Sección Contacto */
-
 #contacto {
   background-color: var(--bg-color);
 }
@@ -760,6 +792,7 @@ header {
   width: 280px;
 }
 
+/* Responsividad */
 @media (max-width: 768px) {
   .ministries-img {
     flex-direction: column;
@@ -791,7 +824,7 @@ header {
 }
 
 .back-to-top i {
-  line-height: 30px; /* Centramos verticalmente el ícono */
+  line-height: 30px;
 }
 
 .back-to-top:hover {
@@ -804,24 +837,23 @@ header {
   display: flex;
 }
 
-/* Responsividad - Ajustes en pantallas más pequeñas */
+/* Responsividad */
 @media (max-width: 768px) {
   .back-to-top {
-    bottom: 12px; /* Ajuste para que esté debajo del Chatbox */
-    width: 35px; /* Botón más pequeño en pantallas pequeñas */
+    bottom: 12px;
+    width: 35px;
     height: 35px;
     font-size: 18px;
   }
 
   .back-to-top i {
-    line-height: 35px; /* Centrado vertical del icono */
+    line-height: 35px;
   }
 }
 
-/* Responsividad - Ajustes en pantallas muy pequeñas (móviles) */
 @media (max-width: 480px) {
   .back-to-top {
-    bottom: 12px; /* Ajuste más pequeño en móviles */
+    bottom: 12px;
     width: 30px;
     height: 30px;
     font-size: 16px;
@@ -844,13 +876,13 @@ header {
   background-color: var(--main-color);
   color: white;
   border: none;
-  width: 50px; /* Hacemos el botón más pequeño */
+  width: 50px;
   height: 50px;
   border-radius: 50%;
   cursor: pointer;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
   font-size: 20px;
-  z-index: 10000; /* Aseguramos que esté por encima de otros elementos */
+  z-index: 10000;
   display: block;
   transition: all 0.5s ease;
 }
@@ -914,7 +946,6 @@ header {
   padding: 10px;
 }
 
-/* Mensajes del usuario (alineados a la derecha) */
 .message.user {
   background-color: #b5d9ec;
   color: #222327;
@@ -922,18 +953,17 @@ header {
   border-radius: 15px;
   margin-bottom: 10px;
   max-width: 80%;
-  float: right; /* Alineado a la derecha */
-  clear: both; /* Asegura que el mensaje esté en su propia línea */
+  float: right;
+  clear: both;
 }
 
-/* Mensajes del asistente (alineados a la izquierda con logo) */
 .message.assistant {
   display: flex;
   align-items: center;
   margin-bottom: 10px;
   max-width: 80%;
-  float: left; /* Alineado a la izquierda */
-  clear: both; /* Asegura que el mensaje esté en su propia línea */
+  float: left;
+  clear: both;
 }
 
 .message.assistant .logo {
@@ -955,7 +985,6 @@ header {
   word-break: break-all;
 }
 
-/* Limpiar floats */
 .chatbox-messages::after {
   content: "";
   display: table;

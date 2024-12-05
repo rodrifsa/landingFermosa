@@ -154,13 +154,12 @@
                 <!-- Card 1: Tecnicatura Superior en Gestion de Empresas -->
                 <div class="carrera-card">
                     <div class="carrera-header">
-                    <a href="https://institutofermosa.online/moodle/course/index.php?categoryid=6" target="_blank">
                         <h3>Tecnicatura Superior en Gestion Integral de Negocios y Empresas</h3>
                         <span>Presencial - Duracion: 3 años</span>
-                        </a>
                     </div>
                     <div class="carrera-content">
                         <p>Ejercerás en áreas vinculadas a la promoción y desarrollo socio económico y socio organizativo, de organismos estatales y privados, y organizaciones sociales tales como, mutuales, asociaciones y/o grupos asociativos.</p>
+                        <a href="https://institutofermosa.online/moodle/course/index.php?categoryid=6" class="btn-card" target="_blank"><button>Ver Más</button></a>
                     </div>
                 </div>
                 <!-- Card 2: Tecnicatura Superior en Comunicacion Social -->
@@ -171,19 +170,19 @@
                     </div>
                     <div class="carrera-content">
                         <p>Desempeñate en medios de comunicación, organismos del estado, ONGs, instituciones privadas y consultoras, entre otros espacios, utilizando el conocimiento adquirido como herramienta para contribuir a la transformación de la realidad.</p>
+                        <a href="#" class="btn-card" target="_blank"><button>Ver Más</button></a>
                     </div>
                 </div>
                 <!-- Card 3: Tecnicatura Superior en Desarrollo de Software -->
                 <div class="carrera-card">
                     <div class="carrera-header">
-                        <a href="https://institutofermosa.online/moodle/course/index.php?categoryid=1" target="_blank">
                         <h3>Tecnicatura Superior
                             en Desarrollo de Software</h3>
                         <span>Presencial - Duracion: 3 años</span>
-                        </a>
                     </div>
                     <div class="carrera-content">
                         <p>Participaras en equipos de desarrollo de software, en cualquiera de sus fases (requerimientos, análisis, diseño, programación, implantación, mantenimiento). Adquiriras conocimientos en distintas técnicas, herramientas, lenguajes de programación y procedimientos.</p>
+                        <a href="https://institutofermosa.online/moodle/course/index.php?categoryid=1" class="btn-card" target="_blank"><button>Ver Más</button></a>
                     </div>
                 </div>
                 <!-- Card 4: Tecnicatura Superior en Desarrollo Local y Economía Social -->
@@ -194,6 +193,7 @@
                     </div>
                     <div class="carrera-content">
                         <p>Ejercerás en áreas vinculadas a la promoción y desarrollo socio económico y socio organizativo, de organismos estatales y privados, y organizaciones sociales tales como, mutuales, asociaciones y/o grupos asociativos.</p>
+                        <a href="#" class="btn-card" target="_blank"><button>Ver Más</button></a>
                     </div>
                 </div>
             </div>
