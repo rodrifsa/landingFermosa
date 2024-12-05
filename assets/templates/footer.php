@@ -12,9 +12,9 @@ echo '
                 
 
                 <div class="footer-socials">
-                    <a href="#"><i class="ri-instagram-fill"></i></a>
-                    <a href="#"><i class="ri-facebook-fill"></i></a>
-                    <a href="#"><i class="ri-whatsapp-fill"></i></a>
+                    <a href="https://www.instagram.com/institutosuperiorfermosa?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank"><i class="ri-instagram-fill"></i></a>
+                    <a href="https://www.facebook.com/ISFermosa" target="_blank"><i class="ri-facebook-fill"></i></a>
+                    <a href="https://wa.me/543704699344" target="_blank"><i class="ri-whatsapp-fill"></i></a>
                 </div>
             </div>
             
@@ -32,13 +32,14 @@ echo '
             <div class="footer-contact">
                 <label for="">Contacto</label>
                 <p>Dirección: Saavedra 1005, P3600 Formosa</p>
-                <p>Teléfono: +123 456 7890</p>
-                <p>Email: info@universidad.com</p>
+                <p>Teléfono: +54 3704699344 / +54 3704402460</p>
+                <p>Email: secretarios.fermosa.2022@gmail.com</p>
             </div>
         </div>
 
         <div class="footer-copyright">
-            <p>&copy; 2024 Universidad Ejemplo. Todos los derechos reservados.</p>
+            <p>&copy; 2024 Instituto Superior Fermosa</p>
+            <p>Todos los derechos reservados.</p>
         </div>
     </footer>
     
