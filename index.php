@@ -56,7 +56,7 @@
     <div class="slider">
         <div class="list">
             <div class="item">
-                <img src="assets/img/slider/image5.jpg" alt="">
+                <img src="assets/img/slider/image1.jpg" alt="">
             </div>
             <div class="item">
                 <img src="assets/img/slider/image2.jpg" alt="">
