@@ -98,7 +98,7 @@
                     </div>
                     <div class="about-text">
                         <h3>Nuestra Historia</h3>
-                        <p>Desde nuestro inicio en XXXX, hemos crecido hasta convertirnos en una de las universidades líderes en el país. Nuestro enfoque siempre ha sido la excelencia académica y el impacto positivo en la comunidad. A lo largo de los años, hemos formado a miles de profesionales que hoy son líderes en sus áreas.</p>
+                        <p>Desde nuestro inicio en 2010, hemos crecido hasta convertirnos en una de las universidades líderes en el país. Nuestro enfoque siempre ha sido la excelencia académica y el impacto positivo en la comunidad. A lo largo de los años, hemos formado a miles de profesionales que hoy son líderes en sus áreas.</p>
                     </div>
                 </div>
 
@@ -154,8 +154,10 @@
                 <!-- Card 1: Tecnicatura Superior en Gestion de Empresas -->
                 <div class="carrera-card">
                     <div class="carrera-header">
+                    <a href="https://institutofermosa.online/moodle/course/index.php?categoryid=6" target="_blank">
                         <h3>Tecnicatura Superior en Gestion Integral de Negocios y Empresas</h3>
                         <span>Presencial - Duracion: 3 años</span>
+                        </a>
                     </div>
                     <div class="carrera-content">
                         <p>Ejercerás en áreas vinculadas a la promoción y desarrollo socio económico y socio organizativo, de organismos estatales y privados, y organizaciones sociales tales como, mutuales, asociaciones y/o grupos asociativos.</p>
@@ -174,9 +176,11 @@
                 <!-- Card 3: Tecnicatura Superior en Desarrollo de Software -->
                 <div class="carrera-card">
                     <div class="carrera-header">
+                        <a href="https://institutofermosa.online/moodle/course/index.php?categoryid=1" target="_blank">
                         <h3>Tecnicatura Superior
                             en Desarrollo de Software</h3>
                         <span>Presencial - Duracion: 3 años</span>
+                        </a>
                     </div>
                     <div class="carrera-content">
                         <p>Participaras en equipos de desarrollo de software, en cualquiera de sus fases (requerimientos, análisis, diseño, programación, implantación, mantenimiento). Adquiriras conocimientos en distintas técnicas, herramientas, lenguajes de programación y procedimientos.</p>

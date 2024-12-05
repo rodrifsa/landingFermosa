@@ -543,6 +543,15 @@ header {
   text-align: center;
 }
 
+.carrera-header a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.carrera-header a:hover {
+  color: #ddd;
+}
+
 .carrera-header h3 {
   margin: 0;
   font-size: 1.3rem;
